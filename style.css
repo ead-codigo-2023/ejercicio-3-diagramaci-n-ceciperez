@@ -1,0 +1,26 @@
+.intro{
+    text-align: center;
+    
+}
+
+header{
+    font-family: 'Croissant One', cursive;
+    padding-top: 15px;
+    padding-bottom: 30px;
+	height: 87px;
+
+}
+
+h1{
+    font-size: 30px;
+}
+
+.page-wrapper{
+    background-color:#DECCBC;
+    padding: 0 175px 0 110px;
+}
+@media screen and (max-width: 800px) {
+    .page-wrapper {
+        padding-left: 40px;
+    }
+}
