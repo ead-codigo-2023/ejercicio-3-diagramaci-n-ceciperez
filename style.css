@@ -1,26 +1,106 @@
-.intro{
-    text-align: center;
-    
+html{
+    background-color: #FFE4C4;
+    width: fit-content;
+    height: fit-content;
+}
+
+a{
+    color: #993333;
+}
+
+div{
+    padding: 3vh 0 0 0;
 }
 
 header{
     font-family: 'Croissant One', cursive;
-    padding-top: 15px;
-    padding-bottom: 30px;
-	height: 87px;
-
+    padding: 20px 0 30px 500px;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 60px;
+    margin: 0 0 0 0;
+}
+
+h2{
+    font-size: 40px;
+    margin: 0 0 0 0;
+}
+
+h3{
+    display: inline;
+    position: absolute;
+    font-family: 'Croissant One', cursive;
+    font-size: 15px;
+    text-align: right;
+    overflow-wrap: break-word;
+    width: 200px;
+    line-height: 1;
+    left: 275px;
+    letter-spacing: 0;
+}
+
+aside h3 {
+    display: contents;
+}
+
+
+p{
+    padding: 0 500px 0 500px;
+    font-family: 'Bitter', serif;
+}
+
+footer{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 20px 0 15px 0;
+}
+
+.wrapper{
+    padding: 0 0 0 0;
+}
+
+.summary p{
+    font-size: 25px;
+}
+
+.preamble p{
+    font-size: 25px;
+}
+
+.preamble h3{
+    font-size: 25px;
+    width: 250px;
+    left: 225px;
+}
+
+.sidebar{
+    padding: 0 0 0 500px;
 }
 
 .page-wrapper{
-    background-color:#DECCBC;
-    padding: 0 175px 0 110px;
+    padding: 0 5vw 0 0px;
 }
+
 @media screen and (max-width: 800px) {
     .page-wrapper {
         padding-left: 40px;
     }
+
+    p{
+        padding: 0 100px 0 100px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .page-wrapper {
+        padding-left: 40px;
+    }
+
+    p{
+        padding: 0 10px 0 10px;
+    }
+    
 }
